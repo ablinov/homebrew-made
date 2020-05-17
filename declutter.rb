@@ -1,8 +1,8 @@
 class Declutter < Formula
   desc "Find duplicate files and folders"
   homepage "https://github.com/ablinov/declutter"
-  url "https://github.com/ablinov/declutter/archive/0.1.2.tar.gz"
-  sha256 "e8263703ed0cb411c0167d3584815ed38d0043da1ebb7f6e0d51251c55ba615d"
+  url "https://github.com/ablinov/declutter/archive/0.1.7.tar.gz"
+  sha256 "d8272f03c991859ee038f31f6753de8746c6cf7f96fbced0446d4e7ae30f44d2"
 
   def install
     args = ["make", "build"]
